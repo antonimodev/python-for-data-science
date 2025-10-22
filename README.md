@@ -24,7 +24,9 @@
 Introduction to Python fundamentals; **syntax**, **data** **types**, **functions**, **data structures**, and **package creation**.
 This module establishes the core programming logic needed for all subsequent work.
 
-[🔗 **Repo here**]()
+<strong>
+	<a href="https://github.com/antonimodev/python-for-data-science/tree/main/0_starting" target="_blank">🔗 Repo here</a>
+</strong>
 
 ## 1 - Array
 
