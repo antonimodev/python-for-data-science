@@ -13,7 +13,7 @@ It covers the language **fundamentals**: syntax, data types, functions, argument
 - [**ex04 - The Even and the Odd**](#the-even-and-the-odd)
 - [**ex05 - First standalone program python**](#first-standalone-program-python)
 
-## [First python script](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex00)
+## First python script
 
 In this exercise I'll modify strings inside these data structures `list`, `tuple`, `set` and `dict`. The goal is to get the expected output:
 
@@ -24,7 +24,9 @@ In this exercise I'll modify strings inside these data structures `list`, `tuple
 {'Hello': '42Malaga'}
 ```
 
-## [First use of package](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex01)
+▶️ [**ex00**](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex00)
+
+## First use of package
 
 This exercise introduces date and time formatting using the `time` or `datetime` modules.
 The script displays the current timestamp (in seconds since epoch) and the formatted current date.
@@ -34,7 +36,9 @@ Seconds since January 1, 1970: 1,666,355,857.3622 or 1.67e+09 in scientific nota
 Oct 21 2022
 ```
 
-## [First function python](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex02)
+▶️ [**ex01**](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex01)
+
+## First function python
 
 Here I define a function `all_thing_is_obj()` that identifies and prints the type of a given object.
 It returns 42 at the end and handles various Python data structures.
@@ -50,7 +54,9 @@ Type not found
 42
 ```
 
-## [NULL not found]()
+▶️ [**ex02**](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex02)
+
+## NULL not found
 
 The goal of this exercise is to detect different types of “null-like” values (`None`, `NaN`, `0`, `""`, `False`)
 and print their names, values, and types.
@@ -67,7 +73,7 @@ Type not Found
 1
 ```
 
-## [The Even and the Odd]()
+## The Even and the Odd
 
 This script takes a number as an argument and determines whether it is even or odd.
 It also handles invalid input and argument errors with clear assertion messages.
@@ -86,7 +92,7 @@ $ python whatis.py 13 5
 AssertionError: more than one argument is provided
 ```
 
-## [First standalone program python]()
+## First standalone program python
 
 I build a program that analyzes a text and counts uppercase letters, lowercase letters, punctuation marks, spaces, and digits.
 If no argument is provided, it prompts the user to input text.
