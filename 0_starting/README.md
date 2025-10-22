@@ -13,7 +13,7 @@ It covers the language **fundamentals**: syntax, data types, functions, argument
 - [**ex04 - The Even and the Odd**](#the-even-and-the-odd)
 - [**ex05 - First standalone program python**](#first-standalone-program-python)
 
-## [First python script](https://github.com/)
+## [First python script](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex00)
 
 In this exercise I'll modify strings inside these data structures `list`, `tuple`, `set` and `dict`. The goal is to get the expected output:
 
@@ -24,7 +24,7 @@ In this exercise I'll modify strings inside these data structures `list`, `tuple
 {'Hello': '42Malaga'}
 ```
 
-## [First use of package]()
+## [First use of package](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex01)
 
 This exercise introduces date and time formatting using the `time` or `datetime` modules.
 The script displays the current timestamp (in seconds since epoch) and the formatted current date.
@@ -34,7 +34,7 @@ Seconds since January 1, 1970: 1,666,355,857.3622 or 1.67e+09 in scientific nota
 Oct 21 2022
 ```
 
-## [First function python]()
+## [First function python](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex02)
 
 Here I define a function `all_thing_is_obj()` that identifies and prints the type of a given object.
 It returns 42 at the end and handles various Python data structures.
@@ -92,7 +92,8 @@ I build a program that analyzes a text and counts uppercase letters, lowercase l
 If no argument is provided, it prompts the user to input text.
 
 ```
-$ python building.py "Python 3.0, released in 2008..."
+$ python building.py "Python 3.0, released in 2008, was a major revision that is not completely backward
+compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020."
 The text contains 171 characters:
 2 upper letters
 121 lower letters
