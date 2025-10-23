@@ -11,11 +11,11 @@
 
 ## 📖 Piscine Index
 
-1. [**Starting**](#0---starting)
-2. [**Array**](#1---array)
-3. [**DataTable**](#2---datatable)
-4. [**Oriented Object Programming**](#3---oriented-object-programming)
-5. [**Data Oriented Design**](#4---data-oriented-design)
+1. [**Starting**](#module-0---starting)
+2. [**Array**](#module-1---array)
+3. [**DataTable**](#module-2---datatable)
+4. [**Oriented Object Programming**](#module-3---oriented-object-programming)
+5. [**Data Oriented Design**](#module-4---data-oriented-design)
 
 ---
 
