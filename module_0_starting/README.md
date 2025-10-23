@@ -8,12 +8,12 @@ It covers the language **fundamentals**: syntax, data types, functions, argument
 
 # 📖 Index
 
-- [**ex00 - First python script**](#first-python-script)
-- [**ex01 - First use of package**](#first-use-of-package)
-- [**ex02 - First function python**](#first-function-python)
-- [**ex03 - Null not found**](#null-not-found)
-- [**ex04 - The Even and the Odd**](#the-even-and-the-odd)
-- [**ex05 - First standalone program python**](#first-standalone-program-python)
+- [**ex00 - First python script**](#ex00---first-python-script)
+- [**ex01 - First use of package**](#ex01---first-use-of-package)
+- [**ex02 - First function python**](#ex02---first-function-python)
+- [**ex03 - Null not found**](#ex03---null-not-found)
+- [**ex04 - The Even and the Odd**](#ex04---the-even-and-the-odd)
+- [**ex05 - First standalone program python**](#ex05---first-standalone-program-python)
 
 <br>
 
@@ -103,6 +103,8 @@ AssertionError: argument is not an integer
 $ python whatis.py 13 5
 AssertionError: more than one argument is provided
 ```
+
+<br>
 
 ## **ex05** - First standalone program python
 
