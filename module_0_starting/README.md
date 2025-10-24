@@ -42,7 +42,8 @@ Seconds since January 1, 1970: 1,666,355,857.3622 or 1.67e+09 in scientific nota
 Oct 21 2022
 ```
 
-▶️ [**ex01**](https://github.com/antonimodev/python-for-data-science/blob/main/0_starting/ex01/format_ft_time.py)
+▶️ [**ex01**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex01/format_ft_time.py)
+
 
 <br>
 
@@ -62,7 +63,7 @@ Type not found
 42
 ```
 
-▶️ [**ex02**](https://github.com/antonimodev/python-for-data-science/tree/main/0_starting/ex02)
+▶️ [**ex02**](https://github.com/antonimodev/python-for-data-science/tree/main/module_0_starting/ex02)
 
 <br>
 
@@ -82,6 +83,7 @@ Fake: False <class 'bool'>
 Type not Found
 1
 ```
+▶️ [**ex03**](https://github.com/antonimodev/python-for-data-science/tree/main/module_0_starting/ex03)
 
 <br>
 
@@ -104,7 +106,7 @@ $ python whatis.py 13 5
 AssertionError: more than one argument is provided
 ```
 
-▶️ [**ex04**](https://github.com/antonimodev/python-for-data-science/blob/main/0_starting/ex04/whatis.py)
+▶️ [**ex04**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex04/whatis.py)
 
 <br>
 
@@ -123,4 +125,4 @@ The text contains 171 characters:
 26 spaces
 15 digits
 ```
-▶️ [**ex05**](https://github.com/antonimodev/python-for-data-science/blob/main/0_starting/ex05/building.py)
+▶️ [**ex05**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex05/building.py)
