@@ -104,6 +104,8 @@ $ python whatis.py 13 5
 AssertionError: more than one argument is provided
 ```
 
+▶️ [**ex04**](https://github.com/antonimodev/python-for-data-science/blob/main/0_starting/ex04/whatis.py)
+
 <br>
 
 ## **ex05** - First standalone program python
@@ -121,3 +123,4 @@ The text contains 171 characters:
 26 spaces
 15 digits
 ```
+▶️ [**ex05**](https://github.com/antonimodev/python-for-data-science/blob/main/0_starting/ex05/building.py)
