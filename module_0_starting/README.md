@@ -14,6 +14,7 @@ It covers the language **fundamentals**: syntax, data types, functions, argument
 - [**ex03 - Null not found**](#ex03---null-not-found)
 - [**ex04 - The Even and the Odd**](#ex04---the-even-and-the-odd)
 - [**ex05 - First standalone program python**](#ex05---first-standalone-program-python)
+- [**ex06 - Filter function**](#ex06---filter-function)
 
 <br>
 
@@ -125,4 +126,29 @@ The text contains 171 characters:
 26 spaces
 15 digits
 ```
+
 ▶️ [**ex05**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex05/building.py)
+
+<br>
+
+## **ex06** - Filter function
+
+I recreate Python's built-in `filter()` function as `ft_filter()`. The goal is understand how iterators, callables and truthy evaluation work in Python.
+
+Then, I create a program that uses `ft_filter()`to process input:
+Take string `S` and an integer `N`, and prints a list of words from `S` longer than `N`.
+
+It also makes use of both a **list comprehension** and a **lambda** expression.
+
+```
+$ python filterstring.py "Hello the World" 4
+['Hello', 'World']
+
+$ python filterstring.py "Hello the World" 99
+[]
+
+$ python filterstring.py 3 "Hello the World"
+AssertionError: the arguments are bad
+```
+
+▶️ [**ex06**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex06/)

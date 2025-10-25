@@ -7,12 +7,14 @@ def get_text_info(text: str) -> dict:
     Receive text and process all char attributes within the text.
 
     The dictionary contains:
-        - Total chars: total number of characters
-        - Upper: number of uppercase letters
-        - Lower: number of lowercase letters
-        - Punctuation marks: number of punctuation marks
-        - Spaces: number of spaces
-        - Digits: number of digits
+        - Total chars: total number of characters.
+        - Upper: number of uppercase letters.
+        - Lower: number of lowercase letters.
+        - Punctuation marks: number of punctuation marks.
+        - Spaces: number of spaces.
+        - Digits: number of digits.
+
+    Params: str.
 
     Returns: Dictionary with all attributes.
     """
