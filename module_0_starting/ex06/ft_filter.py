@@ -13,4 +13,6 @@ def ft_filter(func: Optional[Callable], data: Iterable) -> Iterator:
     if func is None:
         func = bool
 
+    # return (item for item in data if func(item)) -> This solution is better
+    # because avoid use of lists, but subject requires list comprehensions
     return (element for element in [item for item in data if func(item)])
