@@ -6,9 +6,12 @@ def main():
     """
     Read text and return words with length greater than user input
 
-    Params: string, integer
+    Args:
+        argv[1]: String
+        argv[2]: Integer
 
-    Returns: list
+    Returns:
+        List
     """
     try:
         assert len(argv) == 3, "the arguments are bad"

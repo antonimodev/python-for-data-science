@@ -152,3 +152,22 @@ AssertionError: the arguments are bad
 ```
 
 ▶️ [**ex06**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex06/)
+
+<br>
+
+## **ex07** - Dictionaries SoS
+
+This program encodes an input string into Morse code.
+
+It uses a dictionary mapping of alphanumeric characters and spaces to Morse symbols.
+Invalid characters `raise` an `AssertionError`.
+
+```
+$ python sos.py "sos"
+... --- ...
+
+$ python sos.py 'h$llo'
+AssertionError: the arguments are bad
+```
+
+▶️ [**ex07**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex07/sos.py)

@@ -14,9 +14,12 @@ def get_text_info(text: str) -> dict:
         - Spaces: number of spaces.
         - Digits: number of digits.
 
-    Params: str.
+    Args:
+        text (str): The string to extract info
 
-    Returns: Dictionary with all attributes.
+    Returns:
+        dict: Dictionary with all attributes of text (Uppers, lowers,
+            spaces, etc).
     """
     text_attributes = {
         "Total chars": 0,
