@@ -15,6 +15,7 @@ It covers the language **fundamentals**: syntax, data types, functions, argument
 - [**ex04 - The Even and the Odd**](#ex04---the-even-and-the-odd)
 - [**ex05 - First standalone program python**](#ex05---first-standalone-program-python)
 - [**ex06 - Filter function**](#ex06---filter-function)
+- [**ex07 - Morse dictionary**](#ex07---morse-dictionary)
 
 <br>
 
@@ -155,7 +156,7 @@ AssertionError: the arguments are bad
 
 <br>
 
-## **ex07** - Dictionaries SoS
+## **ex07** - Morse dictionary
 
 This program encodes an input string into Morse code.
 
