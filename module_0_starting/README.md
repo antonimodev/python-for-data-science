@@ -172,3 +172,19 @@ AssertionError: the arguments are bad
 ```
 
 ▶️ [**ex07**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex07/sos.py)
+
+<br>
+
+## **ex08** - Loading...
+
+Here I implement a simplified version of tqdm, named ft_tqdm().
+It visually tracks the progress of a loop using the yield operator to preserve lazy evaluation.
+The function dynamically adapts to the terminal width.
+
+```
+$ python tester.py
+100%|[===============================================================>]| 333/333
+100%| | 333/333 [00:01<00:00, 191.61it/s]
+```
+
+▶️ [**ex08**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex08/)
