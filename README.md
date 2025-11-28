@@ -24,34 +24,34 @@
 Introduction to Python fundamentals; **syntax**, **data** **types**, **functions**, **data structures**, and **package creation**.
 This module establishes the core programming logic needed for all subsequent work.
 
-🔗 [**Repo here**](https://github.com/antonimodev/python-for-data-science/tree/main/module_0_starting)
+🔗 [**View**](https://github.com/antonimodev/python-for-data-science/tree/main/module_0_starting)
 
 ## MODULE 1 - Array
 
 Focuses on **array manipulation** and numerical operations.
 I'll focus in learn to work efficiently with **NumPy**, exploring slicing, reshaping, and vectorized computation.
 
-🔗 [**Repo here**]()
+🔗 [**In Progress**]()
 
 ## MODULE 2 - DataTable
 
 Centers on **data loading**, **manipulation**, and v**isualization** using **pandas**.
 Emphasis is placed on handling **CSV files**, filtering datasets, and generating meaningful insights through analysis.
 
-🔗 [**Repo here**]()
+🔗 [**In Progress**]()
 
 ## MODULE 3 - Oriented Object Programming
 
 Explores **Object Oriented Programming** (OOP) principles; **classes**, **inheritance**, **encapsulation**, and reusable design.
 The goal is to model complex systems and write modular, maintainable code.
 
-🔗 [**Repo here**]()
+🔗 [**In Progress**]()
 
 ## MODULE 4 - Data Oriented Design
 
 Introduces **Data Oriented Design** (DOD), a performance-driven approach that emphasizes **efficient data layout and processing** in real world scenarios.
 
-🔗 [**Repo here**]()
+🔗 [**In Progress**]()
 
 ---
 
