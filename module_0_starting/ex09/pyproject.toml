@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=80.9.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ft_package"
+version = "0.0.1"
+authors = [
+    { name = "antonimo", email = "antonimo@student.42.fr" }
+]
+description = "A sample test package"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex09/ft_package"
