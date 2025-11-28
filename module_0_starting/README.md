@@ -16,6 +16,8 @@ It covers the language **fundamentals**: syntax, data types, functions, argument
 - [**ex05 - First standalone program python**](#ex05---first-standalone-program-python)
 - [**ex06 - Filter function**](#ex06---filter-function)
 - [**ex07 - Morse dictionary**](#ex07---morse-dictionary)
+- [**ex08 - Loading**](#ex08---loading)
+- [**ex09 - My first package**](#ex09---my-first-package)
 
 <br>
 
@@ -23,7 +25,7 @@ It covers the language **fundamentals**: syntax, data types, functions, argument
 
 In this exercise I'll modify strings inside these data structures `list`, `tuple`, `set` and `dict`. The goal is to get the expected output:
 
-```
+```python
 ['Hello', 'World!']
 ('Hello', 'Spain')
 {'Hello', 'Malaga'}
@@ -39,7 +41,7 @@ In this exercise I'll modify strings inside these data structures `list`, `tuple
 This exercise introduces date and time formatting using the `time` or `datetime` modules.
 The script displays the current timestamp (in seconds since epoch) and the formatted current date.
 
-```
+```python
 Seconds since January 1, 1970: 1,666,355,857.3622 or 1.67e+09 in scientific notation
 Oct 21 2022
 ```
@@ -54,7 +56,7 @@ Oct 21 2022
 Here I define a function `all_thing_is_obj()` that identifies and prints the type of a given object.
 It returns 42 at the end and handles various Python data structures.
 
-```
+```python
 List : <class 'list'>
 Tuple : <class 'tuple'>
 Set : <class 'set'>
@@ -76,7 +78,7 @@ and print their names, values, and types.
 
 The function returns 0 if everything goes well, or 1 if an unknown type is passed.
 
-```
+```python
 Nothing: None <class 'NoneType'>
 Cheese: nan <class 'float'>
 Zero: 0 <class 'int'>
@@ -94,7 +96,7 @@ Type not Found
 This script takes a number as an argument and determines whether it is even or odd.
 It also handles invalid input and argument errors with clear assertion messages.
 
-```
+```python
 $ python whatis.py 14
 I'm Even.
 
@@ -117,7 +119,7 @@ AssertionError: more than one argument is provided
 I build a program that analyzes a text and counts uppercase letters, lowercase letters, punctuation marks, spaces, and digits.
 If no argument is provided, it prompts the user to input text.
 
-```
+```python
 $ python building.py "Python 3.0, released in 2008, was a major revision that is not completely backward
 compatible with earlier versions. Python 2 was discontinued with version 2.7.18 in 2020."
 The text contains 171 characters:
@@ -141,7 +143,7 @@ Take string `S` and an integer `N`, and prints a list of words from `S` longer t
 
 It also makes use of both a **list comprehension** and a **lambda** expression.
 
-```
+```python
 $ python filterstring.py "Hello the World" 4
 ['Hello', 'World']
 
@@ -163,7 +165,7 @@ This program encodes an input string into Morse code.
 It uses a dictionary mapping of alphanumeric characters and spaces to Morse symbols.
 Invalid characters `raise` an `AssertionError`.
 
-```
+```python
 $ python sos.py "sos"
 ... --- ...
 
@@ -181,10 +183,27 @@ Here I implement a simplified version of tqdm, named ft_tqdm().
 It visually tracks the progress of a loop using the yield operator to preserve lazy evaluation.
 The function dynamically adapts to the terminal width.
 
-```
+```python
 $ python tester.py
 100%|[===============================================================>]| 333/333
 100%| | 333/333 [00:01<00:00, 191.61it/s]
 ```
 
 ▶️ [**ex08**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex08/)
+
+<br>
+
+## **ex09** - My first package
+
+This final exercise introduces package creation and distribution in Python.
+I create a package named `ft_package` with metadata (`pyproject.toml`, `README.md`, `LICENSE`, etc.)
+and install it locally using `pip install`.
+
+```python
+from ft_package import count_in_list
+
+print(count_in_list(["toto", "tata", "toto"], "toto"))  # output: 2
+print(count_in_list(["toto", "tata", "toto"], "tutu"))  # output: 0
+```
+
+▶️ [**ex09**](https://github.com/antonimodev/python-for-data-science/blob/main/module_0_starting/ex09/)
