@@ -2,7 +2,7 @@ from sys import argv, exit
 from ft_filter import ft_filter
 
 
-def main():
+def main() -> None:
     """
     Read text and return words with length greater than user input
 

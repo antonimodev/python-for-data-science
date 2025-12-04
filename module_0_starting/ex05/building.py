@@ -27,7 +27,7 @@ def get_text_info(text: str) -> dict:
         "Lower": 0,
         "Punctuation marks": 0,
         "Spaces": 0,
-        "Digits": 0
+        "Digits": 0,
     }
 
     for char in text:
@@ -47,7 +47,7 @@ def get_text_info(text: str) -> dict:
     return text_attributes
 
 
-def main():
+def main() -> None:
     try:
         assert len(argv) <= 2, "more than one argument is provided."
     except AssertionError as e:
