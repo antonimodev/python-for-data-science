@@ -1,7 +1,8 @@
-from typing import Optional, Callable, Iterable, Iterator
+from collections.abc import Callable, Iterable, Iterator
+from typing import Any
 
 
-def ft_filter(func: Optional[Callable], data: Iterable) -> Iterator:
+def ft_filter(func: Callable | None, data: Iterable[Any]) -> Iterator[Any]:
     """
     Filters elements in an iterable for which the function returns True.
 

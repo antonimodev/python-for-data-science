@@ -1,7 +1,7 @@
-from typing import Any, Optional
 
 
-def all_thing_is_obj(arg: Any) -> Optional[str]:
+
+def all_thing_is_obj(arg: object) -> str | None:
     types = {
         list: f"List : {type(arg)}",
         tuple: f"Tuple : {type(arg)}",

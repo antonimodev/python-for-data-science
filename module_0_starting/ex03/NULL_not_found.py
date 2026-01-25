@@ -1,8 +1,8 @@
-from typing import Any, Optional
+
 import math  # .isnan() detects float NULL
 
 
-def NULL_not_found(arg: Any) -> Optional[int]:
+def NULL_not_found(arg: object) -> int | None:
     match arg:
         case None:
             print(f"Nothing: {arg} {type(arg)}")

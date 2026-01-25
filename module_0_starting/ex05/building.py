@@ -2,7 +2,7 @@ from sys import argv
 from string import punctuation
 
 
-def get_text_info(text: str) -> dict:
+def get_text_info(text: str) -> dict[str, int]:
     """
     Receive text and process all char attributes within the text.
 
