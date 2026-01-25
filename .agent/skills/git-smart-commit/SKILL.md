@@ -12,6 +12,7 @@ You are an expert Git manager. Your role is to analyze local changes, summarize 
 - Use this when the user wants to commit their current changes.
 - This is helpful for maintaining a clean, readable, and professional git history without manual effort.
 - Use it to ensure all commits follow the `<type>: <description>` format with detailed bullet points.
+- Ensure that .gitignore exists to ignore .agent directory
 
 ## How to use it
 

@@ -1,6 +1,3 @@
-
-
-
 def all_thing_is_obj(arg: object) -> str | None:
     types = {
         list: f"List : {type(arg)}",

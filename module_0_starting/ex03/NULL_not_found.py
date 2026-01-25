@@ -1,4 +1,3 @@
-
 import math  # .isnan() detects float NULL
 
 

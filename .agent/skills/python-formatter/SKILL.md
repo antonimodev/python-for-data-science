@@ -27,7 +27,7 @@ Sigue estas reglas de espaciado y estructura:
 - **Espaciado en funciones**:
   - Dos líneas en blanco entre funciones de nivel superior y clases.
 - **Imports (Estilo Django)**:
-  - Agrupa en este orden: 1) Stdlib, 2) Third-party, 3) Django Framework, 4) Local imports.
+  - Agrupa en este orden: 1) Stdlib, 2) Third-party, 3) Django Framework, 4) Local imports. Además ten en cuenta de que si modificas los imports o los eliminas, debes colocar los imports en el orden correcto y empezando desde la primera línea del archivo.
 - **Espacios en operadores**:
   - `x = 1` (espacio alrededor de asignación).
   - `def func(a: int = 1)`: CON espacios si HAY type hint.
